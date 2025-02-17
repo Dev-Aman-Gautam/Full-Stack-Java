@@ -1,7 +1,7 @@
 // LogicalOperators.java
 
 // Demonstrates Logical AND (&&)
-public class LogicalOperators {
+public class logicaloperators {
     /**
      * @param args
      */
