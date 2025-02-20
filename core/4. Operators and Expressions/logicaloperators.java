@@ -24,7 +24,7 @@ public class logicaloperators {
         // Logical OR
         System.out.println("\nLogical OR (||):");
         System.out.println("a || b: " + (a || b)); // Output: true
-        System.out.println("b || b: " + (b || b)); // Output: false
+        //System.out.println("b || b: " + (b || b)); // Output: false
 
         // Logical NOT
         System.out.println("\nLogical NOT (!):");
