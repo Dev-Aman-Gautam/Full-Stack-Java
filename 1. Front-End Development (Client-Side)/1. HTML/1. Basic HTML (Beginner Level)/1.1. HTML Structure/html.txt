@@ -1,0 +1,102 @@
+**HTML Structure - Java Full Stack Development Repository**
+
+### Introduction
+HTML (HyperText Markup Language) is the foundational building block of web development. It structures the content of web pages, providing a framework that browsers interpret and render for users. Understanding HTML structure is essential for building web applications in the Java Full Stack Development process.
+
+### 1. Basic HTML Document Structure
+Every HTML document follows a specific structure, starting with a `<!DOCTYPE>` declaration and followed by key elements:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Website</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="home">
+            <h2>Home Section</h2>
+            <p>This is the home section of the website.</p>
+        </section>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Details about our work and team.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 My Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+```
+
+### 2. Explanation of Key Elements
+- `<!DOCTYPE html>`: Declares the document type (HTML5).
+- `<html>`: The root element containing the entire HTML document.
+- `<head>`: Contains metadata, character set, viewport settings, title, and links to stylesheets.
+- `<body>`: Contains visible content such as headers, paragraphs, images, and sections.
+- `<header>`: Defines a top section with a title or navigation.
+- `<nav>`: Defines a navigation menu.
+- `<main>`: The central content section.
+- `<section>`: Used to define different sections of content.
+- `<footer>`: Contains footer information like copyright details.
+
+### 3. Semantic HTML
+Semantic HTML elements provide meaning to web pages, improving accessibility and SEO. Common elements include:
+- `<article>`: Represents a self-contained article.
+- `<aside>`: Represents side content, like a sidebar.
+- `<figure>` & `<figcaption>`: Used for images and captions.
+- `<time>`: Represents time and date.
+
+### 4. Forms and Input Elements
+Forms allow user input and interactions. Example:
+```html
+<form action="/submit" method="POST">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+    <button type="submit">Submit</button>
+</form>
+```
+
+### 5. Lists and Tables
+Lists and tables structure data efficiently:
+```html
+<ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+</ul>
+
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Age</th>
+    </tr>
+    <tr>
+        <td>Aman</td>
+        <td>25</td>
+    </tr>
+</table>
+```
+
+### 6. HTML Best Practices
+- Use semantic tags for better readability.
+- Keep structure simple and organized.
+- Use external CSS for styling.
+- Ensure proper indentation and comments.
+
+### Conclusion
+Understanding HTML structure is crucial for Java Full Stack Developers. A well-structured HTML page improves performance, accessibility, and maintainability. It serves as the foundation for adding CSS, JavaScript, and backend technologies like Java Spring Boot.
+
