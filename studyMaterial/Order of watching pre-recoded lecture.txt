@@ -1,3 +1,50 @@
 Part 1- 
-Part 2-  For JDBC concept 5 November to till 20 November
+Part 2- For JDBC concept 5 November to till 20 November
 Part 2- For Exception concept.
+
+
+JDK Installation or Java Installation video no: 19/07/2023 
+Source: search download jdk 8 then login it will download automatically.
+
+Eclipse IDE & JDK installation: 19/07/2023 
+source:
+
+Jre Installation video no:
+source:
+
+mysql Installation video no:05.09.2023
+source:Mysql Website 
+Other resource: SimpleLearn Mysql Tutorial
+usrename: root
+password: test
+
+
+how to again start  mysql server
+Windows – Start and Stop Server
+Open 'Run' Window by using Win key + R.
+Type 'services.msc'
+Now search for MySQL service based on the version that is installed.
+Click on 'stop', 'start' or 'restart' the service option.
+
+
+
+Contector j: 06.09.2023 installation 20.09.2023
+
+Apache Tomcat 15.09.2023
+
+STS Spring installation - 25.10.2023
+
+Postman Installation : 17.11.2023 at 15 min
+
+Intelli J : 27.11.2023 at 34
+
+JDBC Concept Start- 5/09/2023 to 
+
+
+
+
+File Handling: start 29/08/2023 to 04/09/2023
+
+web_app_1 : Registration Page - 19-09-2023
+Advanced Java Theory - 16 to 25
+spring topic - 25.10.2023 to 
