@@ -1,4 +1,4 @@
-# History and Evolution of HTML:
+# History and Evolution of HTML
 
 HTML has evolved significantly since its inception. Below is a timeline of its major milestones:
 
@@ -16,6 +16,6 @@ HTML has evolved significantly since its inception. Below is a timeline of its m
 
 2008 (HTML5 Draft): Work began on HTML5, focusing on improved multimedia support and semantic elements.
 
-2014 (HTML5 Final Release): Officially published as a W3C recommendation, introducing new elements like <article>, <section>, <video>, and <canvas>.
+2014 (HTML5 Final Release): Officially published as a W3C recommendation, introducing new elements like `<article>`, `<section>`, `<video>`, and `<canvas>`.
 
 Ongoing Updates: HTML continues to evolve with new specifications and enhancements to support modern web development needs.

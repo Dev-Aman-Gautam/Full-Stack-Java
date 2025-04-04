@@ -1,4 +1,4 @@
-What is Doctype?
+# What is Doctype?
 
 A DOCTYPE (Document Type Declaration) is an instruction at the beginning of an HTML document that informs the web browser about the HTML version being used. It ensures the document is rendered correctly according to web standards.
 
@@ -30,7 +30,7 @@ HTML 4.01 (Transitional):
 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 
-Allows deprecated elements like <font> and <center>.
+Allows deprecated elements like `<font>` and `<center>`.
 
 XHTML 1.0:
 

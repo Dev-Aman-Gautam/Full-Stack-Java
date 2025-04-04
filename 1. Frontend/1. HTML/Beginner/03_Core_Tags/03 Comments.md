@@ -1,4 +1,5 @@
-Comments in HTML
+# Comments in HTML
+
 Introduction:
 
 HTML comments are non-displayed pieces of text that developers use to explain the code, provide context, or temporarily disable parts of the code. They are essential for maintaining code readability and collaboration, especially in larger projects or when multiple developers are involved.
@@ -79,8 +80,8 @@ html
 Copy
 Edit
 <!-- Header Section: Contains the navigation and logo -->
-<header>
-    <nav>
+<`header`>
+    <`nav`>
         <!-- Navigation links go here -->
         <a href=\"index.html\">Home</a>
         <a href=\"about.html\">About</a>
@@ -99,4 +100,3 @@ Edit
 Conclusion:
 
 HTML comments are a simple yet powerful tool that improves code maintainability, readability, and collaborative efficiency. When used correctly, they offer clarity and context without affecting how web pages are rendered by browsers. Remember to use comments judiciously, keeping them clear and relevant to ensure that your HTML code remains clean and understandable.
-
