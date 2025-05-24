@@ -1,6 +1,9 @@
+<<<<<<< HEAD
+
 # FullStack-Curriculum
 
-├── Frontend/
+# Frontend
+
 │   ├── HTML/
 │   │   ├── 01_Basics/
 │   │   │   ├── 01_Introduction.md         // What is HTML? Its role, history, and evolution
@@ -154,3 +157,6 @@
 │   ├── Blogs.md
 │   └── Tools.md
 └── README.md
+=======
+# Full-Stack-Java
+>>>>>>> origin/intermediate
