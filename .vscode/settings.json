@@ -2,5 +2,10 @@
     "editor.wordWrap": "on",
     "notebook.output.wordWrap": true,
     "chat.editor.wordWrap": "on",
-    "files.autoSave": "onFocusChange"
+    "files.autoSave": "onFocusChange",
+    "github.copilot.enable": {
+        "markdown": true,
+        "plaintext": true,
+        "scminput": true
+    }
 }
