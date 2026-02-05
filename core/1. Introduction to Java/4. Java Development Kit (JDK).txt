@@ -13,3 +13,141 @@ The Java Development Kit (JDK) is a software development kit used for developing
 6. Updates and Releases: Oracle regularly releases updates to the JDK to address security vulnerabilities, performance issues, and to introduce new features. These updates are distributed through the Java website or package managers for specific operating systems.
 
 7. Role in Development: The JDK is essential for Java developers, providing them with the tools and libraries needed to create robust, platform-independent applications. It is the foundation of the Java ecosystem and plays a crucial role in the software development lifecycle for Java projects.
+
+
+```
++--------------------------------------------------+
+|                    JDK                           |
+|  (Java Development Kit)                          |
+|                                                  |
+|  +--------------------------------------------+  |
+|  |                  JRE                       |  |
+|  |  (Java Runtime Environment)                |  |
+|  |                                            |  |
+|  |  +--------------------------------------+  |  |
+|  |  |               JVM                    |  |  |
+|  |  |  (Java Virtual Machine)              |  |  |
+|  |  +--------------------------------------+  |  |
+|  |                                            |  |
+|  |  Core Libraries (java.lang, java.util…)    |  |
+|  +--------------------------------------------+  |
+|                                                  |
+|  Developer Tools (javac, jar, javadoc, etc.)     |
++--------------------------------------------------+
+```
+
+---
+
+## 2. What Each Part Means (Simple Mental Model)
+
+### JDK – *For developers*
+
+> “Everything needed to **write, compile, and run** Java programs”
+
+Includes:
+
+* `javac` → Java compiler
+* `java` → Program launcher
+* Debugger, documentation tools
+* **JRE inside it**
+
+---
+
+### JRE – *For running Java*
+
+> “Everything needed to **run** Java programs”
+
+Includes:
+
+* **JVM**
+* Java standard libraries (APIs)
+
+You need JRE **even if you don’t write code**, only run it.
+
+---
+
+### JVM – *The engine*
+
+> “Actually **executes** Java bytecode”
+
+Responsibilities:
+
+* Loads classes
+* Verifies bytecode
+* Converts bytecode to machine code
+* Manages memory (heap, stack, garbage collection)
+
+---
+
+## 3. How a Java Program Runs (Step-by-Step Diagram)
+
+### Step 1: Write Code
+
+```
+MyProgram.java
+```
+
+---
+
+### Step 2: Compile (JDK tool)
+
+```
+javac MyProgram.java
+        |
+        v
+MyProgram.class   (BYTECODE)
+```
+
+👉 Bytecode is **platform-independent**
+
+---
+
+### Step 3: Run (JRE + JVM)
+
+```
+java MyProgram
+   |
+   v
++------------------------------+
+|            JVM               |
+|                              |
+|  Class Loader                |
+|      ↓                       |
+|  Bytecode Verifier           |
+|      ↓                       |
+|  Interpreter / JIT Compiler  |
+|      ↓                       |
+|  Machine Code (CPU-specific) |
++------------------------------+
+```
+
+---
+
+## 4. Inside the JVM (Very Rough)
+
+```
++------------------------------------+
+|               JVM                  |
+|                                    |
+|  Method Area   → Class metadata    |
+|  Heap          → Objects           |
+|  Stack         → Method calls      |
+|  PC Register   → Current instruction|
+|  Native Stack  → Native code       |
+|                                    |
+|  Garbage Collector                |
++------------------------------------+
+```
+
+---
+
+## 5. One-Line Summary (Exam / Interview Friendly)
+
+* **JDK** = Develop + Run Java
+* **JRE** = Run Java
+* **JVM** = Execute bytecode
+* **.java** = Source code
+* **.class** = Bytecode
+* **Write once, run anywhere** = Bytecode + JVM
+
+---
