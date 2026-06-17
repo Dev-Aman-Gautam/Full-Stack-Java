@@ -4,8 +4,10 @@
     "chat.editor.wordWrap": "on",
     "files.autoSave": "onFocusChange",
     "github.copilot.enable": {
-        "markdown": true,
+        "*": true,
         "plaintext": true,
+        "markdown": true,
         "scminput": true
-    }
+    },
+    "chat.disableAIFeatures": true
 }
