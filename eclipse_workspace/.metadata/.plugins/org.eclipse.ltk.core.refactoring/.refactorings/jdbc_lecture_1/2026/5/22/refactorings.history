@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Copy element &apos;lib&apos; to &apos;jdbc_lecture_2&apos;&#x0D;&#x0A;- Original project: &apos;jdbc_lecture_1&apos;&#x0D;&#x0A;- Destination element: &apos;jdbc_lecture_2&apos;&#x0D;&#x0A;- Original element: &apos;lib&apos;" description="Copy folder" element1="lib" files="0" flags="589830" folders="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1779899158259" target="/jdbc_lecture_2" units="0" version="1.0"/>
-</session>
